@@ -1,34 +1,23 @@
-
-# Build artifacts
-bin
-build
-obj
-
-# Visual Studio + Code
-.vs
-.vscode
-*.user
-*.suo
-
-# UWP packages
-/examples/TestAppUwp/AppPackages
-
-# Nuget C++ packages
-/packages
-
-# Unity artifacts
-/libs/Microsoft.MixedReality.WebRTC.Unity/Assets/Plugins
-/libs/Microsoft.MixedReality.WebRTC.Unity/Builds
-/libs/Microsoft.MixedReality.WebRTC.Unity/Library
-/libs/Microsoft.MixedReality.WebRTC.Unity/Temp
-/libs/Microsoft.MixedReality.WebRTC.Unity/Logs
-/libs/Microsoft.MixedReality.WebRTC.Unity/*.csproj
-/libs/Microsoft.MixedReality.WebRTC.Unity/*.sln
-
-# Certificates
-*.pfx
-*.pfx.meta
-
-# MRTK (for samples)
-/libs/Microsoft.MixedReality.WebRTC.Unity/Assets/MixedRealityToolkit*
-/libs/Microsoft.MixedReality.WebRTC.Unity/Assets/TextMesh Pro*
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+node_modules/
+vendor/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+.tox/
+.bundle/
+Pods/
+.gradle/
+.terraform/
+bower_components/
+.cache/
+coverage/
